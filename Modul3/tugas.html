@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Company Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      background-color: #fff0f5;
+    }
+    .navbar {
+      background-color: #ffc0cb !important;
+    }
+    .navbar-brand, .nav-link {
+      color: #6c064f !important;
+      font-weight: bold;
+    }
+    .card {
+      border: 1px solid #ffc0cb;
+    }
+    .card .btn {
+      color: #e91e63;
+      border-color: #e91e63;
+    }
+    .card:hover .btn {
+      background-color: #e91e63;
+      color: white;
+    }
+    footer {
+      background-color: #ffe4e1;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 40px;
+      color: #6c064f;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header + Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">MyCompany</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Konten Utama -->
+<div class="container my-5">
+
+  <!-- Tabel Informasi Perusahaan -->
+  <h2 class="mb-4 text-center text-danger">Informasi Perusahaan</h2>
+  <table class="table table-bordered">
+    <tr><th>Nama Perusahaan</th><td>PT. Teknologi Nusantara</td></tr>
+    <tr><th>Tahun Berdiri</th><td>2015</td></tr>
+    <tr><th>Jumlah Karyawan</th><td>150</td></tr>
+    <tr><th>Lokasi Kantor</th><td>Jakarta, Indonesia</td></tr>
+  </table>
+
+  <!-- Card Produk/Layanan -->
+  <h2 class="mt-5 mb-4 text-center text-danger">Produk dan Layanan</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="layanan.jpg" class="card-img-top" alt="Layanan Konsultasi">
+        <div class="card-body">
+          <h5 class="card-title">Layanan IT Konsultasi</h5>
+          <p class="card-text">Kami menyediakan layanan konsultasi teknologi informasi profesional untuk bisnis Anda.</p>
+          <a href="#" class="btn btn-outline-primary">Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="pengembangan aplikasi.jpg" class="card-img-top" alt="Pengembangan Aplikasi">
+        <div class="card-body">
+          <h5 class="card-title">Pengembangan Aplikasi</h5>
+          <p class="card-text">Kami mengembangkan aplikasi web dan mobile sesuai kebutuhan klien.</p>
+          <a href="#" class="btn btn-outline-primary">Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Pelatihan & Workshop.jpg" class="card-img-top" alt="Pelatihan dan Workshop">
+        <div class="card-body">
+          <h5 class="card-title">Pelatihan & Workshop</h5>
+          <p class="card-text">Kami menyediakan pelatihan teknologi untuk individu maupun perusahaan.</p>
+          <a href="#" class="btn btn-outline-primary">Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 PT. Teknologi Nusantara | <a href="#">Instagram</a> | <a href="#">LinkedIn</a></p>
+</footer>
+
+</body>
+</html>
